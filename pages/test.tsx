@@ -133,7 +133,7 @@ const handleSubmit = async (event: { preventDefault: () => void; }) => {
       <br></br>
       <label>Enter  Discription:&nbsp;&nbsp;&nbsp;
         <textarea 
-          type="text" 
+       
           value={recipient}
           onChange={(e) => setRecipient(e.target.value)}
         />
